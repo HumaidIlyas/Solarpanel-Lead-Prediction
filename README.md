@@ -6,6 +6,7 @@ This project aims to optimize resource allocation for lead management by predict
 
 ## **Dataset**
 
+![Lead Flow](assets/lead_flow.png)
 
 The dataset consists of customer leads with their attributes, lead generation sources, and timestamps for different stages in the sales pipeline. The final target variable is a **binary classification**:
 - **1 (Success)**: The lead reaches the **Site Survey stage**.
@@ -75,6 +76,11 @@ The workflow for data preprocessing, feature engineering, and modeling follows a
 - **Class Imbalance Handling**:
   - Used **SMOTE (Synthetic Minority Over-sampling Technique)** to generate synthetic samples of minority class.
 
+
+![Model Performance](assets/model_performances.png)
+
+After comparing a variety of models, Gradient Boosting was chosen for its performance
+
 - **Gradient Boosting Classifier**:
   - Trained a **Gradient Boosting Model** with default hyperparameters.
   - Achieved **83.2% recall and 74% precision** on the test set.
@@ -100,6 +106,3 @@ Developed a **pipeline for lead probability prediction**.
 ## **Future Work**
 - Train a **separate model** on cold leads that eventually convert to **identify revival patterns**.
 - Experiment with **Hyperparameter Tuning** for Gradient Boosting to improve model performance.
-
-
-
