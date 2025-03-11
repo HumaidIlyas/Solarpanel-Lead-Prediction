@@ -95,10 +95,10 @@ After comparing a variety of models, Gradient Boosting was chosen for its perfor
 ---
 
 ## **Key Takeaways**
-Developed a **pipeline for lead probability prediction**.  
-**Engineered features** to capture the **preceding phase before a lead was lost**.  
-**Balanced class distribution** using **SMOTE** to improve recall.  
-**Achieved high recall (83.2%)** to minimize missed potential leads.  
+- Developed a **pipeline for lead probability prediction**.  
+- **Engineered features** to capture the **preceding phase before a lead was lost**.  
+- **Balanced class distribution** using **SMOTE** to improve recall.  
+- **Achieved high recall (83.2%)** to minimize missed potential leads.  
  
 
 ---
