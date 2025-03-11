@@ -8,6 +8,7 @@ This project aims to optimize resource allocation for lead management by predict
 
 ![Lead Flow](assets/lead_flow.png)
 
+The following are the stages each lead goes through before eventually the site where a solar panel is to be involved is surveyed for installation. The number below shows the funnel of customer leads towards getting to the deals.
 The dataset consists of customer leads with their attributes, lead generation sources, and timestamps for different stages in the sales pipeline. The final target variable is a **binary classification**:
 - **1 (Success)**: The lead reaches the **Site Survey stage**.
 - **0 (Not Successful)**: The lead either **goes cold or is lost** at any phase before the site survey.
