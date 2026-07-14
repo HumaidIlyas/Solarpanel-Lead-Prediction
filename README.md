@@ -78,7 +78,6 @@ The workflow for data preprocessing, feature engineering, and modeling follows a
   - Used **SMOTE (Synthetic Minority Over-sampling Technique)** to generate synthetic samples of minority class.
 
 
-![Model Performance](assets/model_performances.png)
 
 After comparing a variety of models, Gradient Boosting was chosen for its performance
 
